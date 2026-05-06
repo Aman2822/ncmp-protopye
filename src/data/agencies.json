@@ -1,0 +1,7 @@
+[
+  { "id": "CCID", "name": "Cyber Crimes Investigation Division", "handles": ["TFGBV", "online_harassment", "non_consensual_images"] },
+  { "id": "NCPA", "name": "National Child Protection Authority", "handles": ["child_abuse", "child_exploitation"] },
+  { "id": "POLICE", "name": "Police Children & Women Bureau", "handles": ["physical_abuse", "domestic_violence", "SGBV"] },
+  { "id": "MOWCA", "name": "Ministry of Women & Child Affairs", "handles": ["welfare_support", "rehabilitation"] },
+  { "id": "SLCERT", "name": "Sri Lanka CERT", "handles": ["cybersecurity", "digital_evidence"] }
+]

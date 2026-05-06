@@ -1,0 +1,37 @@
+[
+  {
+    "id": "NCMP-2024-0001",
+    "type": "TFGBV",
+    "status": "Under Investigation",
+    "agency": "CCID",
+    "date": "2024-06-01",
+    "anonymous": true,
+    "description": "Victim received threatening messages via social media.",
+    "evidence": ["screenshot1.png", "chat_log.pdf"],
+    "notes": "Evidence secured. Suspect identified."
+  },
+  {
+    "id": "NCMP-2024-0002",
+    "type": "domestic_violence",
+    "status": "Pending Review",
+    "agency": "POLICE",
+    "date": "2024-06-03",
+    "anonymous": false,
+    "victimName": "Priya S.",
+    "description": "Reported repeated physical abuse at home.",
+    "evidence": ["medical_report.pdf"],
+    "notes": ""
+  },
+  {
+    "id": "NCMP-2024-0003",
+    "type": "child_exploitation",
+    "status": "Resolved",
+    "agency": "NCPA",
+    "date": "2024-05-20",
+    "anonymous": false,
+    "victimName": "Minor (identity protected)",
+    "description": "Child exploitation material found online.",
+    "evidence": ["url_list.txt"],
+    "notes": "Case closed. Offender prosecuted."
+  }
+]

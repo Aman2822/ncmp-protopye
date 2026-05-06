@@ -1,0 +1,12 @@
+{
+  "TFGBV": ["CCID", "SLCERT"],
+  "online_harassment": ["CCID"],
+  "non_consensual_images": ["CCID", "SLCERT"],
+  "child_abuse": ["NCPA", "POLICE"],
+  "child_exploitation": ["NCPA", "CCID"],
+  "physical_abuse": ["POLICE"],
+  "domestic_violence": ["POLICE", "MOWCA"],
+  "SGBV": ["POLICE", "MOWCA"],
+  "cybersecurity": ["SLCERT", "CCID"],
+  "welfare_support": ["MOWCA"]
+}
