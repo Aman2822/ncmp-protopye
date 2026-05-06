@@ -1,3 +1,5 @@
+
+import Analytics from "./portals/InternalPortal/Analytics";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./portals/PublicPortal/HomePage";
 import ReportForm from "./portals/PublicPortal/ReportForm";
@@ -10,7 +12,7 @@ import CaseDetail from "./portals/InternalPortal/CaseDetail";
 export default function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      <Routes>S
         <Route path="/" element={<HomePage />} />
         <Route path="/report" element={<ReportForm />} />
         <Route path="/submitted" element={<Submitted />} />
@@ -18,6 +20,7 @@ export default function App() {
         <Route path="/internal" element={<Dashboard />} />
         <Route path="/internal/cases" element={<CaseList />} />
         <Route path="/internal/cases/:id" element={<CaseDetail />} />
+        <Route path="/internal/analytics" element={<Analytics />} />
       </Routes>
     </BrowserRouter>
   );
