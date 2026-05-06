@@ -3,6 +3,9 @@ import HomePage from "./portals/PublicPortal/HomePage";
 import ReportForm from "./portals/PublicPortal/ReportForm";
 import Submitted from "./portals/PublicPortal/Submitted";
 import TrackCase from "./portals/PublicPortal/TrackCase";
+import Dashboard from "./portals/InternalPortal/Dashboard";
+import CaseList from "./portals/InternalPortal/CaseList";
+import CaseDetail from "./portals/InternalPortal/CaseDetail";
 
 export default function App() {
   return (
@@ -12,7 +15,9 @@ export default function App() {
         <Route path="/report" element={<ReportForm />} />
         <Route path="/submitted" element={<Submitted />} />
         <Route path="/track" element={<TrackCase />} />
-        <Route path="/internal" element={<div>Dashboard coming soon</div>} />
+        <Route path="/internal" element={<Dashboard />} />
+        <Route path="/internal/cases" element={<CaseList />} />
+        <Route path="/internal/cases/:id" element={<CaseDetail />} />
       </Routes>
     </BrowserRouter>
   );
