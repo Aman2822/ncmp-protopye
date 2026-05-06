@@ -63,3 +63,11 @@ Open `http://localhost:5173` in your browser.
 ---
 
 ## Project Structure
+
+    src/
+    ├── portals/
+    │   ├── PublicPortal/      # Reporting, tracking
+    │   └── InternalPortal/    # Dashboard, cases, analytics
+    ├── data/                  # Mock cases, agencies, routing rules
+    ├── utils/                 # Routing engine logic
+    └── App.jsx
