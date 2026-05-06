@@ -1,16 +1,65 @@
-# React + Vite
+# NCMP — National Case Management Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A centralized digital platform for reporting and managing Sexual and Gender-Based Violence (SGBV) and Technology-Facilitated Gender-Based Violence (TFGBV) cases in Sri Lanka.
 
-Currently, two official plugins are available:
+Built as part of a Business Analyst case study for Loons Lab.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Problem Statement
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Victims of SGBV/TFGBV in Sri Lanka are frequently redirected between 6 government agencies, leading to repeated trauma, loss of evidence, and case drop-off. This platform solves that by providing a single entry point that automatically routes cases to the correct agency.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+### Public Portal
+- Report an incident in 4 steps
+- Anonymous reporting option
+- Evidence upload
+- Auto case routing to correct agency
+- Case reference ID generation
+- Case status tracker
+
+### Internal Portal (Agency Officers)
+- Dashboard with live case stats
+- Full case list with status filters
+- Detailed case view with evidence files and officer notes
+- Inter-agency support requests
+- Analytics — cases by agency and type
+
+---
+
+## Agencies Covered
+- Police Children & Women Bureau
+- Cyber Crimes Investigation Division (CCID)
+- National Child Protection Authority (NCPA)
+- Ministry of Women & Child Affairs (MoWCA)
+- Sri Lanka CERT (SLCERT)
+
+---
+
+## Tech Stack
+- React (Vite)
+- React Router DOM
+- Tailwind CSS
+- JSON mock data
+- Custom routing engine
+
+---
+
+## How to Run
+
+```bash
+git clone https://github.com/Aman2822/ncmp-protopye.git
+cd ncmp-protopye
+npm install
+npm run dev
+```
+
+Open `http://localhost:5173` in your browser.
+
+---
+
+## Project Structure
